@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>ABC Bikes</title>
 
-   
+
      <!--Import Google Icon Font-->
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      <!--Import materialize.css-->
@@ -18,23 +18,24 @@
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
   <script type="text/javascript">
-  
-      
+
+
   </script>
      <!--Let browser know website is optimized for mobile-->
      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
-<body>  
+<body>
     <!--Navbar-->
         <nav>
                 <div class="nav-wrapper">
-                  <a href="#" class="brand-logo" style="margin-left: 30px">ABC Bikes</a>
+                  <a href="#" class="brand-logo" style="margin-left: 30px">A<span class="red-text">B</span>C
+                    Bik<span class="red-text">e</span>s</a>
                   <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">Map</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li class="navigate" elem="service"><a href="">Services</a></li>
+                    <li class="navigate" elem="product"><a href="">Products</a></li>
+                    <li class="navigate" elem="map"><a href="">Find Us</a></li>
+                    <li class="navigate" elem="about"><a href="">About</a></li>
+                    <li class="navigate" elem="contact"><a href="">Contact Us</a></li>
                   </ul>
                 </div>
               </nav>
@@ -46,14 +47,17 @@
       </div>
 <!--Beginning of Container Services-->
 
+
+
+
 <div class="" style="margin-left: 100px;margin-right: 100px">
   <br/><br/>
 
-  <div class="center-align">
+  <div id="service" class="center-align">
       <h3>Services</h3>
       <br/><br/>
   </div>
-   
+
                   <div class="row" style="height: 400px">
     <div class="col s12 m3 ">
       <div class="icon-box center-align ">  <i class="large material-icons grey-color " >motorcycle</i></div>
@@ -63,7 +67,7 @@
           <p>We have in stock all sorts of motorbikes
             for delivery, Personal and general transportation.</p>
         </div>
-       
+
       </div>
     </div>
     <div class="col s12 m3 promotion-card">
@@ -72,10 +76,10 @@
         <div class="card-content promotion-card">
           <span class="card-title">Service and Repair</span>
           <p>We service and repair all models and types
-            of motorbikes, with our maintenance program 
+            of motorbikes, with our maintenance program
             your bike is garanteed to last longer!</p>
         </div>
-       
+
       </div>
     </div>
     <div class="col s12 m3 ">
@@ -88,7 +92,7 @@
             source a spare part for you if it is
             not available locally.</p>
         </div>
-       
+
       </div>
     </div>
     <div class="col s12 m3">
@@ -99,13 +103,13 @@
           <p>We have qualified and experienced
             mechanics that assemble all models of motobikes.</p>
         </div>
-        
+
       </div>
     </div>
   </div>
   <div>
     <!--Products-->
-    <div class="center-align">
+    <div id="product" class="center-align">
     <h3>Products</h3>
     <br/>
     <div class="col s12 m6 ">
@@ -119,62 +123,103 @@
         </div>
         </div>
     <div class="row">
-       
-   
+
+
     <div class="row">
       <div class="col s12 m4">
+
+
+          <div class="card">
+            <div class="card-image ">
+              <img class="materialboxed" src="images/pexels-photo-258092.jpeg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">SL 150-7<i class="material-icons right">more_vert</i></span>
+
+              <p>Model No: SL157FMJ-3<br/>
+             Engine Power: 8.8 kW	11 hp<br/>
+            Maximum speed: 95Km/h</p>
+              <p class="card-action"><a href="#">k9800.00</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">SL 150-7<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="col s12 m4">
         <div class="card">
-          <div class="card-image">
-            <img class="materialboxed" width="650px" src="images/pexels-photo-258092.jpeg">
-            <span class="card-title">SL 150-7</span>
+          <div class="card-image ">
+            <img class="materialboxed" src="images/pexels-photo-258092.jpeg">
           </div>
           <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">SL 150-7<i class="material-icons right">more_vert</i></span>
+
             <p>Model No: SL157FMJ-3<br/>
            Engine Power: 8.8 kW	11 hp<br/>
           Maximum speed: 95Km/h</p>
+            <p class="card-action"><a href="#">k9800.00</a></p>
           </div>
-          <div class="card-action">
-              
-            <a href="#">Enquire Price</a>
-           
-          </div>
-          
-        </div>
-      </div>
-      <div class="col s12 m4">
-        <div class="card">
-          <div class="card-image">
-            <img src="images/pexels-photo-258092.jpeg">
-            <span class="card-title">SL 150-7</span>
-          </div>
-          <div class="card-content">
-            <p>Model No: SL157FMJ-3<br/>
-              Engine Power: 8.8 kW	11 hp<br/>
-             Maximum speed: 95Km/h</p>
-          </div>
-          <div class="card-action">
-              <a href="#">Enquire Price</a>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">SL 150-7<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
           </div>
         </div>
       </div>
       <div class="col s12 m4">
         <div class="card">
-          <div class="card-image">
-            <img src="images/pexels-photo-258092.jpeg">
-            <span class="card-title">SL 150-7</span>
+          <div class="card-image ">
+            <img class="materialboxed" src="images/pexels-photo-258092.jpeg">
           </div>
           <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">SL 150-7<i class="material-icons right">more_vert</i></span>
+
             <p>Model No: SL157FMJ-3<br/>
-              Engine Power: 8.8 kW	11 hp<br/>
-             Maximum speed: 95Km/h</p>
+           Engine Power: 8.8 kW	11 hp<br/>
+          Maximum speed: 95Km/h</p>
+            <p class="card-action"><a href="#">k9800.00</a></p>
           </div>
-          <div class="card-action">
-              <a href="#">Enquire Price</a>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">SL 150-7<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+
+<!-- video -->
+<div class="" style="margin-left: 100px;margin-right: 100px">
+  <br/><br/>
+
+  <div id="service" class="center-align">
+      <h3>Featured Video</h3>
+      <br/><br/>
+  </div>
+        <div class="video-container">
+          <iframe width="853" height="480" src="https://www.youtube.com/embed/EoYK--6-rGQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+
+
+</div>
+
+
+
+
   <!--Map-->
   <br/>
   <div class="center-align">
@@ -183,7 +228,7 @@
   <br/><br/>
   <div id="map" style="height:600px"></div>
   <!--About Us-->
-  <div class="center-align">
+  <div id="about" class="center-align">
     <br/><br/>
     <h3>About Us</h3>
     <br/>
@@ -194,11 +239,11 @@
   <!--Contact Us-->
   <div class="center-align">
     <h4>Get It Touch</h4>
-    
+
     </div>
     <br/><br/>
     <div>
-    <div class="row" height:"600px">
+    <div id="contact" class="row" height:"600px">
       <div class="col m5" style="padding-left: 50px;">
         <h5>Contact Us</h5>
         <p>We are always interested in hearing from you, Comments, Suggestions thoughts feel free to contact us, or come visit us physically our doors are always open.</p>
@@ -206,13 +251,13 @@
         <p>ABC Bikes<br/>
           Opposite Autoworld COMESA Market on Lumumba Rd
           <br/> South-End Next to Shabco Milling
-          <br/>Lusaka 
+          <br/>Lusaka
           <br/>Zambia<br/>
         </p>
         <br/><hr/>
         <p>Phone Number:+260 979 784 677 | +260 950 600 237 <br/>
         Email: info@abcbikes.org </p>
-       
+
 
       </div>
       <br/>
@@ -230,7 +275,7 @@
                     <label for="last_name">Last Name</label>
                   </div>
                 </div>
-                
+
                     <div class="row">
                         <div class="input-field col s12">
                           <input placeholder="" id="subject" type="text" class="validate">
@@ -252,8 +297,40 @@
   </div>
   <br/><br/>
   <!--footer-->
-  
-  <!--End of Container-->  
+
+  <!--End of Container-->
+
+
+  <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">LEARN MORE</h5>
+              <p class="grey-text text-lighten-4">Keep up to date with our social pages here.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a  href="https://www.facebook.com/" target="_blank" class="grey-text text-lighten-3" href="#!">
+                    Facebook</a></li>
+                <li><a href="https://twitter.com/?lang=en" target="_blank" class="grey-text text-lighten-3" target="_blank" href="#!">Twitter</a></li>
+                <li><a href="whttps://www.facebook.com/" target="_blank" class="grey-text text-lighten-3" href="#!">Blog</a></li>
+                <li><a href="https://www.youtube.com/watch?v=EoYK--6-rGQ" target="_blank" class="grey-text text-lighten-3" href="#!">Youtube</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2018 ABC BIKES
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          </div>
+        </div>
+      </footer>
+
+
+
+
 </div>
 
   <!--vi javascript-->
@@ -269,17 +346,18 @@ function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
+       x[i].style.display = "none";
     }
     myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
     setTimeout(carousel, 4000); // Change image every 2 seconds
 }
   //Map function
   function myMap() {
+
     var mapOptions = {
-        center: new google.maps.LatLng(-15.4270, 28.2807),
+        center: new google.maps.LatLng(-15.428259,28.2787147),
         zoom: 16,
         mapTypeId: google.maps.MapTypeId.roadmap
     }
@@ -287,11 +365,34 @@ var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 }
 myMap();
 
-  
- 
+
+
+$(document).ready(function (){
+          $(".navigate").click(function (){
+
+            const id = $(this).attr('elem');
+
+              $('html, body').animate({
+                  scrollTop: $("#"+id).offset().top
+              }, 2000);
+
+              return false;
+          });
+      });
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.materialboxed');
+  var instances = M.Materialbox.init(elems, {});
+});
+
+
+
                     </script>
 
-     
-    
+
+
 </body>
 </html>

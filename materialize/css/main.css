@@ -1,5 +1,8 @@
 .nav-wrapper{
-    background-color: #7D7D7D;
+    background-color: rgb(38,166,154);
+}
+.page-footer{
+    background-color:rgb(38,166,154);
 }
 .grey-color{
     color:  #7D7D7D;
@@ -13,11 +16,11 @@
 	color:#7D7D7D;
 }
 .tabs .tab.disabled a,.tabs .tab.disabled a:hover {
-	color:rgba(102,147,153,0.7);	
+	color:rgba(102,147,153,0.7);
 }
 .tabs .indicator {
 	background-color:#7D7D7D;
 }
 .promotion-card{
-    height:177px;
+    height:250px;
 }
