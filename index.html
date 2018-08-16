@@ -29,7 +29,7 @@
     <!--Navbar-->
     <ul id="dropdown1" class="dropdown-content">
   <li><a href="#!">Projects</a></li>
-  <li><a href="#!">Volunteers</a></li>
+  <li><a href="Volunteers.html">Volunteers</a></li>
   <li class="divider"></li>
   <li><a href="#!">NGOs</a></li>
   <li><a href="#!">campaigns</a></li>
@@ -109,6 +109,22 @@
  </div>
 </form>
               </nav>
+
+
+
+
+            <div class="row">
+    <div class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">textsms</i>
+          <input type="text" id="autocomplete-input" class="autocomplete">
+          <label for="autocomplete-input">Autocomplete</label>
+        </div>
+      </div>
+    </div>
+  </div>
+
     <!--Carousel-->
     <div class="w3-content w3-section" >
         <img class="mySlides" src="https://cdn-thumbs.barewalls.com/hand-writing-social-change-with-marker_bwc41913746.jpg" style="width:100%">
@@ -337,6 +353,23 @@ function carousel() {
 
 
 $(document).ready(function (){
+
+  $('input.autocomplete').autocomplete({
+     data: {
+       "Apple": null,
+       "Microsoft": null,
+       "Google": 'https://placehold.it/250x250'
+     },
+     limit: 20, // The max amount of results that can be shown at once. Default: Infinity.
+     onAutocomplete: function(val) {
+       // Callback function when value is autcompleted.
+     },
+     minLength: 1, // The minimum length of the input for the autocomplete to start. Default: 1.
+   });
+
+
+
+
 $(".dropdown-button").dropdown();
           $(".navigate").click(function (){
 
