@@ -7,11 +7,18 @@
  <!--Import  fontawesome-->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
 integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+<link rel="stylesheet" href="main.css" >
+
      <!--Import Google Icon Font-->
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      <!--Import materialize.css-->
      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
      <link type="text/css" rel="stylesheet" href="materialize/css/main.css"  media="screen,projection"/>
+     <script
+       src="https://code.jquery.com/jquery-3.3.1.js"
+       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+       crossorigin="anonymous"></script>
 <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
 
   <script type="text/javascript">
@@ -20,6 +27,10 @@ integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbi
   </script>
      <!--Let browser know website is optimized for mobile-->
      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+     <stylesheet>
+
+
 </head>
 <body>
     <!--Navbar-->
@@ -145,7 +156,7 @@ integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbi
                  <section  id="search" class="section section-search teal darken-1 white-text left-align scrollspy">
                 <div class="container left-align">
                 <div class="row">
-                <div class="col s6">
+                <div class="col s12">
                   <table>
    <thead>
      <tr>
@@ -172,9 +183,12 @@ integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbi
          </td>
        <td>
            <div class="input-field col s12">
-             <input id="Category" type="text" required>
-             <label class="label-icon" for="Category"><i class="material-icons">choose</i></label>
-
+             <select>
+               <option value="" disabled selected>Choose your option</option>
+               <option value="1">Option 1</option>
+               <option value="2">Option 2</option>
+               <option value="3">Option 3</option>
+             </select>
            </div>
          </form></td>
      </tr>
@@ -188,15 +202,19 @@ integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbi
                  </section>
 
       <!--Carousel two----->
+      <div class="row">
+      <div class="col s12">
       <div class="carousel">
-        <a class="carousel-item" href="#one!"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx7Ay7OwhAM7lLQo7g4cTJOOctZC6n49COXjsqeMOZRRybVChkOg" style="width:300% height:300%"></a>
-        <a class="carousel-item" href="#two!"><img src="https://cdn-thumbs.barewalls.com/hand-writing-social-change-with-marker_bwc41913746.jpg"style="width:800% height:800%"></a>
-        <a class="carousel-item" href="#three!"><img src="https://i1.wp.com/measurementresourcesco.com/wp-content/uploads/2017/12/Collective-Impact.jpg?fit=1000%2C671"style="width:300% height:300%"></a>
-        <a class="carousel-item" href="#four!"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx7Ay7OwhAM7lLQo7g4cTJOOctZC6n49COXjsqeMOZRRybVChkOg"style="width:300% height:300%"></a>
-        <a class="carousel-item" href="#five!"><img src="https://i1.wp.com/measurementresourcesco.com/wp-content/uploads/2017/12/Collective-Impact.jpg?fit=1000%2C671"style="width:300% height:300%" ></a>
+        <a class="carousel-item col s4" href="#one!"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx7Ay7OwhAM7lLQo7g4cTJOOctZC6n49COXjsqeMOZRRybVChkOg" style="width:900% height:900%"></a>
+        <a class="carousel-item col s4" href="#two!"><img src="https://cdn-thumbs.barewalls.com/hand-writing-social-change-with-marker_bwc41913746.jpg"style="width:800% height:800%"></a>
+        <a class="carousel-item col s4" href="#three!"><img src="https://i1.wp.com/measurementresourcesco.com/wp-content/uploads/2017/12/Collective-Impact.jpg?fit=1000%2C671"style="width:900% height:900%"></a>
+        <a class="carousel-item col s4" href="#four!"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx7Ay7OwhAM7lLQo7g4cTJOOctZC6n49COXjsqeMOZRRybVChkOg"style="width:900% height:900%"></a>
+        <a class="carousel-item col s4" href="#five!"><img src="https://i1.wp.com/measurementresourcesco.com/wp-content/uploads/2017/12/Collective-Impact.jpg?fit=1000%2C671"style="width:900% height:300%" ></a>
+      </div>
+      </div>
       </div>
       <!--Carousel-->
-    <!-------  <div class="w3-content w3-section" >
+    <!--  <div class="w3-content w3-section" >
           <img class="mySlides" src="https://cdn-thumbs.barewalls.com/hand-writing-social-change-with-marker_bwc41913746.jpg" style="width:100%">
           <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx7Ay7OwhAM7lLQo7g4cTJOOctZC6n49COXjsqeMOZRRybVChkOg" style="width:100%">
           <img class="mySlides" src="https://i1.wp.com/measurementresourcesco.com/wp-content/uploads/2017/12/Collective-Impact.jpg?fit=1000%2C671"  style="width:100%">
@@ -204,67 +222,21 @@ integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbi
 
 <!--Beginning of Container Services-->
 
-<div class="" style="margin-left: 100px;margin-right: 100px">
-  <br/><br/>
-  <div id="service" class="center-align">
-      <h3>Find</h3>
-      <br/><br/>
-  </div>
-                  <div class="row" style="height: 400px">
-    <div class="col s12 m3 ">
-      <div class="icon-box center-align ">  <i class="large material-icons grey-color " >motorcycle</i></div>
-      <div class="card  ">
-        <div class="card-content promotion-card">
-          <span class="card-title">Companies</span>
 
-</p>
-        </div>
 
-      </div>
-    </div>
-    <div class="col s12 m3 promotion-card">
-        <div class="icon-box center-align">  <i class="large material-icons grey-color">store</i></div>
-      <div class="card ">
-        <div class="card-content promotion-card">
-          <span class="card-title">Groups</span>
 
-</p>
-        </div>
-
-      </div>
-    </div>
-    <div class="col s12 m3 ">
-        <div class="icon-box center-align">  <i class="large material-icons grey-color">link</i></div>
-      <div class="card ">
-        <div class="card-content promotion-card">
-          <span class="card-title">Business</span>
-
-.</p>
-        </div>
-
-      </div>
-    </div>
-    <div class="col s12 m3">
-        <div class="icon-box center-align">  <i class="large material-icons grey-color">motorcycle</i></div>
-      <div class="card  light-1">
-        <div class="card-content promotion-card">
-          <span class="card-title">Volunteers</span>
-</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div>
 
 
 
 <!-- video -->
 <div class="" style="margin-left: 100px;margin-right: 100px">
-  <br/><br/>
+
+  <br><br>
+
 
   <div id="service" class="center-align">
+    <br><br>
       <h3>Featured Video</h3>
-      <br/><br/>
   </div>
         <div class="video-container">
 <iframe width="853" height="480" src="https://www.youtube.com/embed/CNiUDvfKl1o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -276,17 +248,8 @@ integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbi
 
 
 
-  <!--Map-->
-  <br/>
-  <div class="center-align">
-    <h3>NEED HELP</h3>
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/vGJ3KEuwSTg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-  </div>
-  <br/><br/>
-  <div id="map" style="height:600px"></div>
   <!--About Us-->
   <div id="about" class="center-align">
-    <br/><br/>
     <h3>About Social Green Network</h3>
     <br/>
     <h5>
@@ -392,7 +355,6 @@ Lorem ipsum dolor sit amet, pede dui sollicitudin, curabitur vitae mas        </
 
 
 
-</div>
 
   <!--vi javascript-->
                   <script type="text/javascript">
@@ -401,7 +363,6 @@ Lorem ipsum dolor sit amet, pede dui sollicitudin, curabitur vitae mas        </
     var instances = M.Carousel.init(elems);
   });
   var myIndex = 0;
-carousel();
 
 function carousel() {
     var i;
@@ -419,19 +380,9 @@ function carousel() {
 
 
 $(document).ready(function (){
+  // carousel();
 
-  $('input.autocomplete').autocomplete({
-     data: {
-       "Apple": null,
-       "Microsoft": null,
-       "Google": 'https://placehold.it/250x250'
-     },
-     limit: 20, // The max amount of results that can be shown at once. Default: Infinity.
-     onAutocomplete: function(val) {
-       // Callback function when value is autcompleted.
-     },
-     minLength: 1, // The minimum length of the input for the autocomplete to start. Default: 1.
-   });
+
 
 
 
@@ -459,39 +410,37 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-document.addEventListener('DOMContentLoaded', function() {
-   var elems = document.querySelectorAll('select');
-   var instances = M.FormSelect.init(elems, options);
- });
+// document.addEventListener('DOMContentLoaded', function() {
+//    var elems = document.querySelectorAll('select');
+//    var instances = M.FormSelect.init(elems, options);
+//  });
 
  // Or with jQuery
 
- $(document).ready(function(){
-   $('select').formSelect();
- });
 
-//////// for carousel
+
+////// for carousel
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.slider');
-  var instances = M.Slider.init(elems, options);
+  var instances = M.Slider.init(elems);
 });
 
 // Or with jQuery
 
 $(document).ready(function(){
   $('.slider').slider();
+
+
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('select');
-    var instances = M.FormSelect.init(elems, options);
-  });
+$(document).ready(function() {
+  $('select').material_select();
+});
+
+
 
   // Or with jQuery
 
-  $(document).ready(function(){
-    $('select').formSelect();
-  });
 
   ////// for image slider
                </script>
