@@ -25,3 +25,9 @@
 .promotion-card{
     height:250px;
 }
+.section-search input{
+  padding: 5px !important;
+  font-size:15px !important;
+  width: 90% !important;
+  border: #fa#fa#fa#fa 3px solid !important;
+}
